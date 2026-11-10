@@ -33,6 +33,9 @@ background-color: rgb(218, 70, 70);
 */
 
 /* Challenge 14: Change the transition for all elements to 1 second */
+#secondGallery img:hover{
+  filter: grayscale(75%);
+}
 body{
   transition: 1 second;
 }
